@@ -1,0 +1,49 @@
+body{
+ background-size: cover;
+ color: aliceblue !important;
+ font-family: 'Special Elite', cursive;
+}
+
+.heading{
+    font-size: 26px;
+    background-color:sandybrown;
+    margin: 0px;
+    padding: 10px;
+}
+
+.note{
+    font-size: 18px;
+
+}
+
+
+.speed,.volume{
+    width: 150px;
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_volume{
+    float: right;
+}
+
+#speed,#volume{
+    background-color: firebrick ;
+    margin: 15px;
+    padding: 10px;
+}
+
+.play{
+  background-color: firebrick ;
+  font-size: 26px;  
+  padding: 5px;
+  width: 130px;
+}
+
+canvas{
+   border: 4px double darkorange;
+   margin-top: 300px;
+   box-shadow: darkorange 0px 0px 40px;
+}
